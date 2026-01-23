@@ -12,19 +12,24 @@ public class arrayList{
         arr.add(30);
         arr.add(40);
         arr.add(50);
-        arr.add(60);
-
+        
+        // access the element
         System.out.println(arr.get(2));  // used to access the element = arr[2]
 
+        // update
         arr.set(3,100);        // used to update the element of the array = arr[3] = 100
         System.out.println(arr);        // only used to print the whole array no loop required
         // also this is not traversing the array by ourselves
 
+        // add between
+        arr.add(2,1);
+        System.out.println(arr);
 
         // to get the length of the array we use arr.size() here
-
         int n = arr.size();
+        System.out.println(n);
 
+        
         for(int i=0; i<n; i++){
             System.out.print(arr.get(i)+" ");
         }
@@ -41,4 +46,5 @@ public class arrayList{
         System.out.println(arr);
 
     }
-}
+} 
+

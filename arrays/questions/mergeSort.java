@@ -23,13 +23,14 @@ public class mergeSort{
     }
         
         public static void main(String[] args){
-            int[] arr1 = {1,5,6,8};
-            int[] arr2 = {4,5,7,9,20,330};
+            int[] arr1 = {8,6,5,1};
+            int[] arr2 = {4,5,4,6,2,3,5,1,0};
 
              int n1 = arr1.length;
              int n2 = arr2.length;
             int[] merged = new int[n1+n2];
-            
+            Arrays.sort(arr1);
+            Arrays.sort(arr2);
         int[] res = merger(arr1,arr2,merged);
         System.out.println(Arrays.toString(res));
     }
