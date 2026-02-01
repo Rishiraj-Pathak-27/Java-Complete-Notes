@@ -12,9 +12,12 @@ public class addingOne {
                 carry=0;
                 return arr;
             }else{
-                arr[i]+=0;
+                arr[i]=0;
                 carry=1;
             }
+        }
+        if(carry==1){
+            
         }
         int[] res = new int[n+1];
         res[0]=1;
@@ -22,7 +25,7 @@ public class addingOne {
     }   
     
     public static void main(String[] args){
-        int[] arr = {9,9,9};
+        int[] arr = {2,7,9,9};
         int[] res = addingOne(arr);
         System.out.println(Arrays.toString(res));
     }
