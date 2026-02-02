@@ -1,10 +1,11 @@
+package Basics;
 // In oops, the main 2 pillars are classes & objects
 // The classes are the userdefined datatype also known as the blueprint of an object
 // EG.
 
 import java.util.Scanner;
 
-public class basicOops {
+public class basicOops { 
 
 public static class Student{
 
@@ -16,7 +17,9 @@ public static class Student{
     void print(){
         System.out.println(name+" "+rollno+" "+cgpa+" "+grade+" ");
     }
+    
 }   
+
 
 // defining user defined class 
  
@@ -35,10 +38,16 @@ public static class Student{
         s2.cgpa = ip.nextDouble();          // initialization of the variables of different types
         s2.grade = ip.next().charAt(0);
 
+        // if we create the print() in class itself then we call print() using dot operator
         s.print();
-        s2.print(); 
-        
+        s2.print();
+
+        // if we create the print() outside the class then we should call print(agr1,--n) through arguments
+        // print(s);
+        // print(s2);
 
     }
+
+    
 }
 

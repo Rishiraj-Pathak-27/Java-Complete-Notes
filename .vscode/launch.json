@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "privateMethods",
+            "request": "launch",
+            "mainClass": "PrivateMethods.privateMethods",
+            "projectName": "Java Programming_c664c979"
+        }
+    ]
+}
