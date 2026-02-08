@@ -9,6 +9,7 @@ public class addingOne {
             if(arr[i]+carry <= 9){
                 ans.add(arr[i]+carry); 
                 carry = 0;
+                
             }else{
                 ans.add(0);
                 carry = 1;
@@ -20,7 +21,7 @@ public class addingOne {
     }
 
     public static void main(String[] args){
-        int[] arr = {9,9,9};
+        int[] arr = {9,9,9,9,9};
         Vector<Integer> res = addingOne(arr);
         System.out.print(res+" ");
     }
