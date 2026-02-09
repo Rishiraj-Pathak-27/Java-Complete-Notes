@@ -64,6 +64,10 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ basicOops$Student.class
 │   │   ├── ☕ basicOops.class
 │   │   └── ☕ basicOops.java
+│   ├── 📁 FinalAndStatic
+│   │   ├── ☕ Student.class
+│   │   ├── ☕ finalAndStatic.class
+│   │   └── ☕ finalAndStatic.java
 │   ├── 📁 Polymorphism
 │   │   ├── ☕ Polymorphism$Cat.class
 │   │   ├── ☕ Polymorphism$Dog.class
@@ -74,6 +78,60 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ Student.class
 │   │   ├── ☕ privateMethods.class
 │   │   └── ☕ privateMethods.java
+│   ├── 📁 arraysInClass
+│   │   ├── ☕ basics$Car.class
+│   │   ├── ☕ basics$Student.class
+│   │   ├── ☕ basics.class
+│   │   └── ☕ basics.java
+│   ├── 📁 constructors
+│   │   ├── 📁 questions
+│   │   │   ├── ☕ book$Book.class
+│   │   │   ├── ☕ book.class
+│   │   │   ├── ☕ book.java
+│   │   │   ├── ☕ empSalary$Employee.class
+│   │   │   ├── ☕ empSalary.class
+│   │   │   ├── ☕ empSalary.java
+│   │   │   ├── ☕ mobilePrice$Mobile.class
+│   │   │   ├── ☕ mobilePrice.class
+│   │   │   ├── ☕ mobilePrice.java
+│   │   │   ├── ☕ questionOne$Laptop.class
+│   │   │   ├── ☕ questionOne.class
+│   │   │   ├── ☕ questionOne.java
+│   │   │   ├── ☕ rectangleArea$Rectangle.class
+│   │   │   ├── ☕ rectangleArea.class
+│   │   │   └── ☕ rectangleArea.java
+│   │   ├── ☕ constructorBasics$Student.class
+│   │   ├── ☕ constructorBasics.class
+│   │   └── ☕ constructorBasics.java
+│   ├── 📁 questions
+│   │   ├── ☕ BankAccount.class
+│   │   ├── ☕ Employee$getterSetter.class
+│   │   ├── ☕ Employee.class
+│   │   ├── ☕ Mobile.class
+│   │   ├── ☕ Student.class
+│   │   ├── ☕ basicClass$Car.class
+│   │   ├── ☕ basicClass.class
+│   │   ├── ☕ basicClass.java
+│   │   ├── ☕ getterSetter.class
+│   │   ├── ☕ getterSetter.java
+│   │   ├── ☕ mobilePhone.class
+│   │   ├── ☕ mobilePhone.java
+│   │   ├── ☕ studentMarks.class
+│   │   ├── ☕ studentMarks.java
+│   │   ├── ☕ validationLogic.class
+│   │   └── ☕ validationLogic.java
+│   ├── 📁 this
+│   │   ├── ☕ Demo.class
+│   │   ├── ☕ Guns.class
+│   │   ├── ☕ Validation.class
+│   │   ├── ☕ example$Guns.class
+│   │   ├── ☕ example.class
+│   │   ├── ☕ example.java
+│   │   ├── ☕ passwordValidation.class
+│   │   ├── ☕ passwordValidation.java
+│   │   ├── ☕ thisKeyword$Car.class
+│   │   ├── ☕ thisKeyword.class
+│   │   └── ☕ thisKeyword.java
 │   ├── ☕ Student.class
 │   ├── ☕ passByReference$Car.class
 │   ├── ☕ passByReference.class
@@ -234,6 +292,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ perfectSquares.java
 │   │   ├── ☕ positiveCheck.class
 │   │   ├── ☕ positiveCheck.java
+│   │   ├── ☕ presentQuery.class
+│   │   ├── ☕ presentQuery.java
 │   │   ├── ☕ removeDuplicates.class
 │   │   ├── ☕ reverseArray.class
 │   │   ├── ☕ reverseArray.java
