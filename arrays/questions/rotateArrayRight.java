@@ -36,7 +36,6 @@ public class rotateArrayRight {
         System.out.println("Enter the position by which you want to rotate the array: ");
         int rotate = ip.nextInt();
         System.out.println(Arrays.toString(arr));
-        int[] res = rotateRight(arr,rotate);
-        System.out.println(Arrays.toString(res));
+        System.out.println(Arrays.toString(rotateRight(arr,rotate)));
     }
 }

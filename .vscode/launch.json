@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "presentQuery",
+            "request": "launch",
+            "mainClass": "presentQuery",
+            "projectName": "Java Programming_c664c979"
+        },
+        {
+            "type": "java",
             "name": "Employee$getterSetter",
             "request": "launch",
             "mainClass": "OOPS.questions.Employee$getterSetter",

@@ -43,7 +43,7 @@
 
 // using for each loop
 
-import java.util.*;
+/* import java.util.*;
 public class reverseArray {
     public static void print(int[] arr) {
         for(int i : arr) {
@@ -75,5 +75,29 @@ public class reverseArray {
         print(arr);
         int[] res = reverse(arr);
         System.out.println(Arrays.toString(res));
+    }
+} */
+
+
+// Reverse Array (Using another method TC-O(n) SC-O(n))
+
+import java.util.Arrays;
+public class reverseArray{
+
+    public static int[] reverse(int[] arr){
+        int n=arr.length;
+        int[] rev = new int[n];
+        int j=0;
+
+        for(int i=n-1; i>=0; i--){
+            rev[j++] = arr[i];
+        }
+
+        return rev;
+    } 
+    public static void main(String[] args){
+        int[] arr = {1,2,3,4,5,6,7,8};
+        // int[] res = reverse(arr);
+        System.out.println(Arrays.toString(reverse(arr)) );
     }
 }
