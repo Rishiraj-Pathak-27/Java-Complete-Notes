@@ -869,7 +869,7 @@ public class loops {
 
 // WAP to check wheather a number is an Armstrong Number.
 
-import java.util.Scanner;
+/* import java.util.Scanner;
 public class loops {
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
@@ -902,45 +902,7 @@ public class loops {
             System.out.printf("%d is not an Armstrong Number\n",n);
         }
     }
-}
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
 
 
 /** ATM Simulation:
@@ -1023,3 +985,29 @@ Otherwise, print the number itself */
         }
     }
 } */
+
+// WAP to calculate the GCD of 2 numbers
+
+import java.util.Scanner;
+public class loops{
+    public static int gcd(int a, int b){
+        // if(a==0) return b;
+        // return gcd(b%a,a);
+
+        // OR
+
+        while(a!=0){
+            int temp=a;
+            a=b%a;
+            b=temp;
+        }
+        return b;
+    } 
+    public static void main(String[] args){
+        Scanner ip = new Scanner(System.in);
+        int a=ip.nextInt();
+        int b=ip.nextInt();
+
+        System.out.println("GCD = "+gcd(a,b));
+    }
+}
