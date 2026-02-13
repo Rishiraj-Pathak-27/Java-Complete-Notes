@@ -8,8 +8,9 @@
 
 /* class Animal{
     int legs = 4;
-    String name = "Cow";
+    String name = "Champa";
     String type = "Herbivorus";    // omni, carni, herbi 
+
 
     public void print(){
         System.out.println(this.legs+" "+this.name+" "+this.type);
@@ -36,7 +37,7 @@ public class basics{
 
         // System.out.println(a1.breed);  will give error
     }   
-} */
+}  */
 
 
 // 2) Multiple Inheritance
@@ -95,7 +96,7 @@ public class basics{
 
 // Heirarchical Inheritance
 
-class Animal{
+/* class Animal{
     void eat(){
         System.out.println("Animal eats food");
     }
@@ -122,4 +123,43 @@ public class basics{
         Cat c = new Cat();
         c.meow();
     }
+} */
+
+
+// Package Example
+
+import bank;
+class College{
+    String name;
+    int departments;
+
+    void print(){
+        System.out.println("College name is "+this.name+" & has "+this.departments+" departments");
+    }
 }
+
+class Departments extends College {
+    String name;
+    String location;
+
+    void print(){
+        System.out.println("Department name is "+this.name+" & located at "+this.location);
+    }
+}
+public class basics{
+public static void main(String[] args){
+    College c = new College();
+    c.name = "RCOEM";
+    c.departments = 10;
+
+    Departments d = new Departments();
+    d.name = "CSE";
+    d.location = "Digital Tower";
+
+    c.print();
+    d.print();
+
+    Account a = new Account();
+}
+}
+
