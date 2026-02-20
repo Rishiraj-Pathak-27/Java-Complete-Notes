@@ -13,8 +13,8 @@ public static class Student{
     }
 
     // constructor 2 which is initialized with the complete array
-    Student(int[] m){
-        marks=Arrays.copyOf(m,m.length);
+    Student(int[] marks){
+        this.marks=Arrays.copyOf(marks,marks.length);
     }
 
     // method to print array elements

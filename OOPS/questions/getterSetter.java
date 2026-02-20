@@ -9,11 +9,13 @@ class Employee{
     private double salary;
 
     public void setSalary(double s){
+        // setName(name);
         if(s>0){
             salary=s;
         }
     } 
-
+    // here the setName method is not accessible bu the setSalary will be able to set the setName
+    // private void setName(String n){
     public void setName(String n){
         name=n;
     }

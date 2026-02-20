@@ -126,9 +126,9 @@ public class basics{
 } */
 
 
-// Package Example
+// Package Example (bank.Account imported from bank folder's file)
 
-import bank;
+/* import bank.Account;
 class College{
     String name;
     int departments;
@@ -159,7 +159,20 @@ public static void main(String[] args){
     c.print();
     d.print();
 
-    Account a = new Account();
+    bank.Account b1 = new bank.Account();
+    b1.accName = "Rishiraj";
+    System.out.println(b1.accName);
 }
+} */
+
+// Eg. Arithmetic Operations
+
+import bank.addClass;
+
+public class basics{
+    public static void main(String[] args){
+        addClass a1 = new addClass(4, 5);
+        a1.print();
+    }
 }
 
