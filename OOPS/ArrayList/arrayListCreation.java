@@ -33,6 +33,7 @@ class ArrayList{
         }
 
         arr[index++] = ele;
+        // size will be updated as elements entering
         size++;
     }
 
