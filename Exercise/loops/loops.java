@@ -764,8 +764,6 @@ public static void main(String []args) {
 public class loops {
     static int isSumPalindrome(int n) {
         
-       
-
         int reverse = 0;
         int originalNum = n;
         int sum = 0;
@@ -780,9 +778,6 @@ public class loops {
             res = originalNum + reverse; 
 
         }
-
-
-
         if(originalNum != reverse || originalNum < 0) {
             System.out.println("not palindrome");
         } else {
@@ -988,7 +983,7 @@ Otherwise, print the number itself */
 
 // WAP to calculate the GCD of 2 numbers
 
-import java.util.Scanner;
+/* import java.util.Scanner;
 public class loops{
     public static int gcd(int a, int b){
         // if(a==0) return b;
@@ -1010,4 +1005,5 @@ public class loops{
 
         System.out.println("GCD = "+gcd(a,b));
     }
-}
+} */
+

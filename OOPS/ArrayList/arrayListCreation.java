@@ -1,5 +1,5 @@
 // Using the OOPS in java we can create our own array list 
-
+// This helps us to mimicks all the operations of the arraylist using class and objects
 
 class ArrayList{
     int[] arr;
@@ -56,6 +56,12 @@ class ArrayList{
         size--;
     }
 
+    void delete(){
+        arr=new int[0];
+        size=0;
+        index=0;
+    }
+
     void display(){
         for(int i=0; i<size ; i++){
 
@@ -70,8 +76,10 @@ public class arrayListCreation {
         ArrayList a = new ArrayList(5);
         a.add(10); a.add(20); a.add(30); a.add(40); a.add(50);
         a.display();
+
         // display size
         System.out.println("Size = "+a.size); 
+
         // get method
         System.out.println(a.get(2));
         a.add(60);
@@ -84,6 +92,15 @@ public class arrayListCreation {
         // removing the elements
         a.remove(5);
         a.display();
+
+        // deleting complete array
+        a.delete();
+        a.display();
+
+        // displaying after deleting an array
+        System.out.println(a.size);
+
+        
         
     }    
 }
