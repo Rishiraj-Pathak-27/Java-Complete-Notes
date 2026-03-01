@@ -1,4 +1,3 @@
-package questions;
 // WAP to find the common elements among two unsorted arrays
 // TC = O(n log n)
 import java.util.ArrayList;

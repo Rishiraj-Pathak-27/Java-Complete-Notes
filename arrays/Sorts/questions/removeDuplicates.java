@@ -1,5 +1,6 @@
 // WAP to remove duplicates from the sorted array  
 
+
 public class removeDuplicates {
     public static int duplicatesRemoved(int[] arr){
         int n=arr.length;

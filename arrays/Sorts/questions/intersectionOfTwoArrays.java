@@ -1,4 +1,3 @@
-package questions;
 // WAP to find the intersection of 2 arrays
 
 import java.util.Arrays;
