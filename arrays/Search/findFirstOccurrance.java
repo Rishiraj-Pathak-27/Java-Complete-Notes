@@ -24,6 +24,6 @@ public class findFirstOccurrance {
     public static void main(String[] args){
         int[] arr = {1,1,2,2,2,3,4,5,5,5,6,7,8,11};
         int target = 6 ;
-        System.out.println(firstOccurrance(arr,target));
+        System.out.println("First Occurance is at idx "+firstOccurrance(arr,target));
     }
 }

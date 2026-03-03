@@ -1,5 +1,6 @@
 public class binarySearch {
     public static void BinarySearch(int[] arr, int target){
+        
         int n=arr.length;   
         boolean isFound = false;
 
