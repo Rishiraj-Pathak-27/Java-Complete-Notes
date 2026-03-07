@@ -27,3 +27,4 @@ public class insertionSort{
         insertionSortFunction(arr);
     }
 }
+

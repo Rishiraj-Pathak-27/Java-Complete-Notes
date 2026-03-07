@@ -15,7 +15,7 @@ public class KPositiveMissing {
 
             if(totalMissing >= k){
                 right = mid-1;
-            }else{
+            }else{ // (totalMissing < k)
                 left = mid+1;
             }
         }
