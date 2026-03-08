@@ -1,3 +1,5 @@
+// The approach we use is that in this we find mid and check that if the targeted element is > mid or not if yes then we go left else we go right
+
 public class binarySearch {
     public static void BinarySearch(int[] arr, int target){
         
