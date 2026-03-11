@@ -60,6 +60,16 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 ├── 📁 JavaInterviewQuestions
 │   └── 📝 java.md
 ├── 📁 OOPS
+│   ├── 📁 AbstractClass
+│   │   ├── ☕ Department.class
+│   │   ├── ☕ Staff.class
+│   │   ├── ☕ Students.class
+│   │   ├── ☕ absBasics.class
+│   │   └── ☕ absBasics.java
+│   ├── 📁 ArrayList
+│   │   ├── ☕ ArrayList.class
+│   │   ├── ☕ arrayListCreation.class
+│   │   └── ☕ arrayListCreation.java
 │   ├── 📁 Basics
 │   │   ├── ☕ basicOops$Student.class
 │   │   ├── ☕ basicOops.class
@@ -68,6 +78,18 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ Student.class
 │   │   ├── ☕ finalAndStatic.class
 │   │   └── ☕ finalAndStatic.java
+│   ├── 📁 Inheritance
+│   │   ├── ☕ Animal.class
+│   │   ├── ☕ Cat.class
+│   │   ├── ☕ Cow.class
+│   │   ├── ☕ Dog.class
+│   │   ├── ☕ Father.class
+│   │   ├── ☕ GrandFather.class
+│   │   ├── ☕ Son.class
+│   │   ├── ☕ basics.class
+│   │   ├── ☕ basics.java
+│   │   ├── ☕ college.class
+│   │   └── ☕ departments.class
 │   ├── 📁 Polymorphism
 │   │   ├── ☕ Polymorphism$Cat.class
 │   │   ├── ☕ Polymorphism$Dog.class
@@ -112,6 +134,12 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ basicClass$Car.class
 │   │   ├── ☕ basicClass.class
 │   │   ├── ☕ basicClass.java
+│   │   ├── ☕ complexClass$CompNumClass.class
+│   │   ├── ☕ complexClass.class
+│   │   ├── ☕ complexClass.java
+│   │   ├── ☕ fractionClass$Fraction.class
+│   │   ├── ☕ fractionClass.class
+│   │   ├── ☕ fractionClass.java
 │   │   ├── ☕ getterSetter.class
 │   │   ├── ☕ getterSetter.java
 │   │   ├── ☕ mobilePhone.class
@@ -141,27 +169,76 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ ArrayLeaders.java
 │   │   ├── ☕ fizzBuzz.class
 │   │   ├── ☕ fizzBuzz.java
+│   │   ├── ☕ moveAllZerosToEnd.class
+│   │   ├── ☕ moveAllZerosToEnd.java
 │   │   ├── ☕ reverseInGroups.class
-│   │   └── ☕ reverseInGroups.java
+│   │   ├── ☕ reverseInGroups.java
+│   │   ├── ☕ twoSum.class
+│   │   └── ☕ twoSum.java
 │   ├── 📁 hackerRank
 │   └── 📁 leetcode
 │       ├── ☕ buySellStock.class
 │       ├── ☕ buySellStock.java
+│       ├── ☕ buySellStockTwo.class
+│       ├── ☕ buySellStockTwo.java
 │       ├── ☕ fibonnaciNumber.class
 │       ├── ☕ fibonnaciNumber.java
 │       ├── ☕ firstAndLastPosition.class
 │       ├── ☕ firstAndLastPosition.java
+│       ├── ☕ majorityElement.class
+│       ├── ☕ majorityElement.java
 │       ├── ☕ medianOfTwoSorted.class
 │       ├── ☕ medianOfTwoSorted.java
 │       ├── ☕ mergeSortedArrays.class
 │       ├── ☕ mergeSortedArrays.java
 │       ├── ☕ missingNumber.class
 │       ├── ☕ missingNumber.java
+│       ├── ☕ moveAllZerosToEnd.java
+│       ├── ☕ removeElements.class
+│       ├── ☕ removeElements.java
 │       ├── ☕ rotateArrayRight.java
 │       ├── ☕ sortColors.class
 │       ├── ☕ sortColors.java
 │       ├── ☕ twoSum.class
 │       └── ☕ twoSum.java
+├── 📁 TwoDArrays
+│   ├── 📁 forEachLoop
+│   │   ├── ☕ forEachLoop.class
+│   │   └── ☕ forEachLoop.java
+│   ├── ☕ arrayTranspose.class
+│   ├── ☕ arrayTranspose.java
+│   ├── ☕ basics.class
+│   ├── ☕ basics.java
+│   ├── ☕ columnWisePrinting.class
+│   ├── ☕ columnWisePrinting.java
+│   ├── ☕ diagonalElements.class
+│   ├── ☕ diagonalElements.java
+│   ├── ☕ diagonalSum.class
+│   ├── ☕ diagonalSum.java
+│   ├── ☕ evenOdd.class
+│   ├── ☕ evenOdd.java
+│   ├── ☕ matrixMultiplication.class
+│   ├── ☕ matrixMultiplication.java
+│   ├── ☕ max.class
+│   ├── ☕ max.java
+│   ├── ☕ maxSumRow.class
+│   ├── ☕ maxSumRow.java
+│   ├── ☕ minOutOfmax.class
+│   ├── ☕ minOutOfmax.java
+│   ├── ☕ reverseAntiClockWise.class
+│   ├── ☕ reverseAntiClockWise.java
+│   ├── ☕ reverseColumWise.class
+│   ├── ☕ reverseColumWise.java
+│   ├── ☕ reverseRowWise.class
+│   ├── ☕ reverseRowWise.java
+│   ├── ☕ rotateColckwise.class
+│   ├── ☕ rotateColckwise.java
+│   ├── ☕ snakePattern.class
+│   ├── ☕ snakePattern.java
+│   ├── ☕ squareTranspose.class
+│   ├── ☕ squareTranspose.java
+│   ├── ☕ sum.class
+│   └── ☕ sum.java
 ├── 📁 arrays
 │   ├── 📁 ArrayListBasics
 │   │   ├── 📁 questions
@@ -183,6 +260,83 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   │   └── ☕ reverseElements.java
 │   │   ├── ☕ arrayList.class
 │   │   └── ☕ arrayList.java
+│   ├── 📁 PrefixSum
+│   │   ├── ☕ prefixSum.class
+│   │   └── ☕ prefixSum.java
+│   ├── 📁 Search
+│   │   ├── 📁 BinarySearch
+│   │   │   ├── ☕ binarySearch.class
+│   │   │   └── ☕ binarySearch.java
+│   │   ├── 📁 LinearSearch
+│   │   │   ├── ☕ linearSearch.class
+│   │   │   └── ☕ linearSearch.java
+│   │   ├── ☕ KPositiveMissing.class
+│   │   ├── ☕ KPositiveMissing.java
+│   │   ├── ☕ arrangingCoins.class
+│   │   ├── ☕ arrangingCoins.java
+│   │   ├── ☕ ceilElement.class
+│   │   ├── ☕ ceilElement.java
+│   │   ├── ☕ descendingOrderSearch.class
+│   │   ├── ☕ descendingOrderSearch.java
+│   │   ├── ☕ findFirstOccurrance.class
+│   │   ├── ☕ findFirstOccurrance.java
+│   │   ├── ☕ findLastOccurrance.class
+│   │   ├── ☕ findLastOccurrance.java
+│   │   ├── ☕ firstLastOccurrance.class
+│   │   ├── ☕ firstLastOccurrance.java
+│   │   ├── ☕ floorElement.class
+│   │   ├── ☕ floorElement.java
+│   │   ├── ☕ maxCountFromPosNegElement.class
+│   │   ├── ☕ maxCountFromPosNegElement.java
+│   │   ├── ☕ peakOfArray.class
+│   │   ├── ☕ peakOfArray.java
+│   │   ├── ☕ searchInSortedRotated.class
+│   │   ├── ☕ searchInSortedRotated.java
+│   │   ├── ☕ singleAmongDoubles.class
+│   │   ├── ☕ singleAmongDoubles.java
+│   │   ├── ☕ sqrt.class
+│   │   └── ☕ sqrt.java
+│   ├── 📁 Sorts
+│   │   ├── 📁 questions
+│   │   │   ├── ☕ KthLargestElement.class
+│   │   │   ├── ☕ KthLargestElement.java
+│   │   │   ├── ☕ KthSmallestElement.class
+│   │   │   ├── ☕ KthSmallestElement.java
+│   │   │   ├── ☕ commonElements.class
+│   │   │   ├── ☕ commonElements.java
+│   │   │   ├── ☕ intersectionOfTwoArrays.class
+│   │   │   ├── ☕ intersectionOfTwoArrays.java
+│   │   │   ├── ☕ moveAllZerosToEnd.class
+│   │   │   ├── ☕ moveAllZerosToEnd.java
+│   │   │   ├── ☕ removeDuplicates.class
+│   │   │   ├── ☕ removeDuplicates.java
+│   │   │   ├── ☕ removeDuplicatesTwo.class
+│   │   │   ├── ☕ removeDuplicatesTwo.java
+│   │   │   ├── ☕ removeElements.class
+│   │   │   ├── ☕ removeElements.java
+│   │   │   ├── ☕ sortEvenOdd.class
+│   │   │   └── ☕ sortEvenOdd.java
+│   │   ├── ☕ bubbleSort.class
+│   │   ├── ☕ bubbleSort.java
+│   │   ├── ☕ bubbleSortDecreasing.class
+│   │   ├── ☕ bubbleSortDecreasing.java
+│   │   ├── ☕ insertionSort.class
+│   │   ├── ☕ insertionSort.java
+│   │   ├── ☕ insertionSortDecreasing.class
+│   │   ├── ☕ insertionSortDecreasing.java
+│   │   ├── ☕ selectionSort.class
+│   │   ├── ☕ selectionSort.java
+│   │   ├── ☕ selectionSortDecreasing.class
+│   │   ├── ☕ selectionSortDecreasing.java
+│   │   ├── ☕ selectionSortLargestSwappingApproach.class
+│   │   └── ☕ selectionSortLargestSwappingApproach.java
+│   ├── 📁 TwoPointer
+│   │   ├── ☕ sortEvenOdd.class
+│   │   ├── ☕ sortEvenOdd.java
+│   │   ├── ☕ sortZerosOnes.class
+│   │   ├── ☕ sortZerosOnes.java
+│   │   ├── ☕ squares.class
+│   │   └── ☕ squares.java
 │   ├── 📁 forEachLoop
 │   │   ├── ☕ forEach.class
 │   │   └── ☕ forEach.java
@@ -211,6 +365,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ arrayProduct.java
 │   │   ├── ☕ arraySorted.class
 │   │   ├── ☕ arraySorted.java
+│   │   ├── ☕ checkSortedArray.class
+│   │   ├── ☕ checkSortedArray.java
 │   │   ├── ☕ containsDuplicate.class
 │   │   ├── ☕ containsDuplicate.java
 │   │   ├── ☕ countBetweenTwo.class
@@ -323,6 +479,9 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   └── ☕ wavyArray.java
 │   ├── ☕ arrayBasics.class
 │   └── ☕ arrayBasics.java
+├── 📁 bank
+│   ├── ☕ Account.java
+│   └── ☕ addClass.java
 ├── 📁 conditionals
 │   ├── ☕ cond.class
 │   └── ☕ cond.java
@@ -412,8 +571,11 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   └── ☕ first.java
 ├── 📝 README.md
 ├── ☕ hello.class
-└── ☕ hello.java
+├── ☕ hello.java
+├── ☕ stringReverse.class
+└── ☕ stringReverse.java
 ```
+
 
 Each folder contains Java programs related to that topic for hands-on practice.
 
