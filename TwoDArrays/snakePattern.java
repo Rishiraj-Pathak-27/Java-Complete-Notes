@@ -48,7 +48,6 @@ public class snakePattern{
             }
             else{
                 int k=0;
-
                 for(int i=n-1; i>=0; i--){
                     res[k][j] = arr[i][j];
                     k++;

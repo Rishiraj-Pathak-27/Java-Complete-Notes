@@ -16,9 +16,6 @@ public class addingOne {
                 carry=1;
             }
         }
-        if(carry==1){
-            
-        }
         int[] res = new int[n+1];
         res[0]=1;
         return res;
