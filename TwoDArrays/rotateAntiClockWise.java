@@ -1,4 +1,4 @@
-public class reverseAntiClockWise {
+public class rotateAntiClockWise {
 
     public static void print(int[][] arr) {
         for (int[] a : arr) {
@@ -8,7 +8,6 @@ public class reverseAntiClockWise {
             System.out.println();
         }
     }
-
 
     // 1) transpose of the array
 
