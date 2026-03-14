@@ -48,5 +48,10 @@ public class TwoDArrayList {
         }
 
 
+        System.out.println(res.get(2));
+
+
+
+
     }    
 }
