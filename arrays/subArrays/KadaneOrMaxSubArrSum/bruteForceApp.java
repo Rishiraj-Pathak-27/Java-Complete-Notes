@@ -1,5 +1,5 @@
 // WAP to find out the maximum subarray sum using brute force approach // T.C. -> O(n^2)
-
+// Here using 2 loop we are using outer loop to travelling among the array and inner loop to add the elements
 
 import java.util.Scanner;
 public class bruteForceApp{
