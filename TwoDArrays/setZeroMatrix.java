@@ -59,3 +59,50 @@ public class setZeroMatrix {
         zeros(arr);
     }
 }
+
+
+// Approach 2 (Using auxiliary arrar for setting -1 where ever 0 founds)
+
+// public class setZeroMatrix{
+//     public static void zeros(int[][] arr){
+//         int n=arr.length;
+//         int m=arr[0].length;
+
+//         int[] rowZero = new int[n];
+//         int[] colZero = new int[m];
+
+//         // OR add boolean flags for rows and cols
+
+//         for(int i=0; i<n; i++){
+//             for(int j=0; j<m; j++){
+//                 if(arr[i][j] == 0){
+//                     rowZero[i] = -1;
+//                     colZero[j] = -1;
+//                 }
+//             }
+//         }
+
+//         for(int i=0; i<n; i++){
+//             for(int j=0; j<m; j++){
+//                 if(rowZero[i] == -1 || colZero[j] == -1){
+//                     arr[i][j] = 0;
+//                 }
+//             }
+//         }
+
+
+//         for(int[] a : arr){
+//             for(int b : a){
+//                 System.out.print(b+" ");
+//             }
+//             System.out.println();
+//         }
+//     }
+
+//     public static void main(String[] args){
+//         int[][] arr = {{1,2,3},{4,0,6},{7,8,9}};
+//         zeros(arr);
+//     }
+
+
+// }
