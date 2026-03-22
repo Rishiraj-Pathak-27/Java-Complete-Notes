@@ -43,7 +43,7 @@ public class setZeroMatrix {
                 arr[i][0] = 0;
             }
         }
-        
+         
         // to print the final matrix
         for(int[] a:arr){
             for(int b:a){
