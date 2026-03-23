@@ -57,6 +57,12 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   ├── ☕ PS4.java
 │   ├── ☕ bookPS.class
 │   └── ☕ bookPS.java
+├── 📁 HackWithInfy
+│   └── 📁 SampleQuestions
+│       ├── ☕ XYZMaxSum.class
+│       ├── ☕ XYZMaxSum.java
+│       ├── ☕ sequenceAssignmentQueries.class
+│       └── ☕ sequenceAssignmentQueries.java
 ├── 📁 JavaInterviewQuestions
 │   └── 📝 java.md
 ├── 📁 OOPS
@@ -175,7 +181,6 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ reverseInGroups.java
 │   │   ├── ☕ twoSum.class
 │   │   └── ☕ twoSum.java
-│   ├── 📁 hackerRank
 │   └── 📁 leetcode
 │       ├── ☕ buySellStock.class
 │       ├── ☕ buySellStock.java
@@ -183,8 +188,12 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │       ├── ☕ buySellStockTwo.java
 │       ├── ☕ fibonnaciNumber.class
 │       ├── ☕ fibonnaciNumber.java
+│       ├── ☕ findDuplicate.class
+│       ├── ☕ findDuplicate.java
 │       ├── ☕ firstAndLastPosition.class
 │       ├── ☕ firstAndLastPosition.java
+│       ├── ☕ intersectionTwoArraysTwo.class
+│       ├── ☕ intersectionTwoArraysTwo.java
 │       ├── ☕ majorityElement.class
 │       ├── ☕ majorityElement.java
 │       ├── ☕ medianOfTwoSorted.class
@@ -197,11 +206,31 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │       ├── ☕ removeElements.class
 │       ├── ☕ removeElements.java
 │       ├── ☕ rotateArrayRight.java
+│       ├── ☕ singleNumber.class
+│       ├── ☕ singleNumber.java
 │       ├── ☕ sortColors.class
 │       ├── ☕ sortColors.java
+│       ├── ☕ targetIndicesAfterSorting.class
+│       ├── ☕ targetIndicesAfterSorting.java
 │       ├── ☕ twoSum.class
 │       └── ☕ twoSum.java
 ├── 📁 TwoDArrays
+│   ├── 📁 TwoDArrayList
+│   │   ├── ☕ TwoDArrayList.class
+│   │   ├── ☕ TwoDArrayList.java
+│   │   ├── ☕ columnWisePrinting.java
+│   │   ├── ☕ matrixMultiplication.class
+│   │   ├── ☕ matrixMultiplication.java
+│   │   ├── ☕ pascalTriangle.class
+│   │   ├── ☕ pascalTriangle.java
+│   │   ├── ☕ pascalTriangleTwo.class
+│   │   ├── ☕ pascalTriangleTwo.java
+│   │   ├── ☕ replaceNegativeWithZeros.class
+│   │   ├── ☕ replaceNegativeWithZeros.java
+│   │   ├── ☕ rotateArrayClockwise.class
+│   │   ├── ☕ rotateArrayClockwise.java
+│   │   ├── ☕ spiralMatrix.class
+│   │   └── ☕ spiralMatrix.java
 │   ├── 📁 forEachLoop
 │   │   ├── ☕ forEachLoop.class
 │   │   └── ☕ forEachLoop.java
@@ -209,14 +238,19 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   ├── ☕ arrayTranspose.java
 │   ├── ☕ basics.class
 │   ├── ☕ basics.java
+│   ├── ☕ boundaryElements.class
+│   ├── ☕ boundaryElements.java
 │   ├── ☕ columnWisePrinting.class
-│   ├── ☕ columnWisePrinting.java
 │   ├── ☕ diagonalElements.class
 │   ├── ☕ diagonalElements.java
 │   ├── ☕ diagonalSum.class
 │   ├── ☕ diagonalSum.java
 │   ├── ☕ evenOdd.class
 │   ├── ☕ evenOdd.java
+│   ├── ☕ frequencyOfNumber.class
+│   ├── ☕ frequencyOfNumber.java
+│   ├── ☕ identityMatrix.class
+│   ├── ☕ identityMatrix.java
 │   ├── ☕ matrixMultiplication.class
 │   ├── ☕ matrixMultiplication.java
 │   ├── ☕ max.class
@@ -225,16 +259,26 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   ├── ☕ maxSumRow.java
 │   ├── ☕ minOutOfmax.class
 │   ├── ☕ minOutOfmax.java
-│   ├── ☕ reverseAntiClockWise.class
-│   ├── ☕ reverseAntiClockWise.java
 │   ├── ☕ reverseColumWise.class
 │   ├── ☕ reverseColumWise.java
 │   ├── ☕ reverseRowWise.class
 │   ├── ☕ reverseRowWise.java
+│   ├── ☕ rotateAntiClockWise.class
+│   ├── ☕ rotateAntiClockWise.java
 │   ├── ☕ rotateColckwise.class
 │   ├── ☕ rotateColckwise.java
+│   ├── ☕ rowColSum.class
+│   ├── ☕ rowColSum.java
+│   ├── ☕ rowWiseMinColWiseMax.class
+│   ├── ☕ rowWiseMinColWiseMax.java
+│   ├── ☕ rowWithmaximumEven.class
+│   ├── ☕ rowWithmaximumEven.java
+│   ├── ☕ setZeroMatrix.class
+│   ├── ☕ setZeroMatrix.java
 │   ├── ☕ snakePattern.class
 │   ├── ☕ snakePattern.java
+│   ├── ☕ sortedMatrixSearch.class
+│   ├── ☕ sortedMatrixSearch.java
 │   ├── ☕ squareTranspose.class
 │   ├── ☕ squareTranspose.java
 │   ├── ☕ sum.class
@@ -477,6 +521,14 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ twoSum.java
 │   │   ├── ☕ wavyArray.class
 │   │   └── ☕ wavyArray.java
+│   ├── 📁 subArrays
+│   │   ├── 📁 KadaneOrMaxSubArrSum
+│   │   │   ├── ☕ bruteForceApp.class
+│   │   │   ├── ☕ bruteForceApp.java
+│   │   │   ├── ☕ kadanesApproach.class
+│   │   │   └── ☕ kadanesApproach.java
+│   │   ├── ☕ subArrays.class
+│   │   └── ☕ subArrays.java
 │   ├── ☕ arrayBasics.class
 │   └── ☕ arrayBasics.java
 ├── 📁 bank
