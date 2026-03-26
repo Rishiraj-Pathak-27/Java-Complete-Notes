@@ -31,6 +31,35 @@ public class methods {
         String gtr = "Yello";
         System.out.println(str.compareTo(gtr));
 
+        // contains() method is used to take an input string and check if it is existing in original String or not.
+        System.out.println("Contains? = "+str.contains("Hell"));
+
+        // startsWith() method is used to take an input string and check if the starting string of existing one is equal to the given string
+        System.out.println(str.startsWith("Ye"));
         
+        // endsWith() method is used to take an input string and check if the ending string of existing one is equal to the given string
+        System.out.println(str.endsWith("ld"));
+        
+        // toLowerCase() method make the whole string in small
+        System.out.println(str.toLowerCase());
+
+        // toUpperCase() method make the whole string in capital
+        System.out.println(str.toUpperCase());
+
+        // concat() method add 2 or more strings together
+
+        String htr = "xyz";
+        String concatenate = str.concat(htr);
+        System.out.println(concatenate);
+        
+
+        // substring() method is used to return all the continuous sub parts of the string
+        System.out.println(str.substring(0,3));
+        System.out.println(str.substring(4,5));
+        System.out.println(str.substring(0));
+
+        for(int i=2; i<4; i++){
+            System.out.print(str.substring(i));
+        }
     }
 }
