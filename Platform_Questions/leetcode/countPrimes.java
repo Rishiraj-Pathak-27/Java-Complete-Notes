@@ -35,7 +35,6 @@
 
 /////////////////////////////////////////////////
 
-
 // Approach 2 (T.C. -> O(n log log n))
 
 public class countPrimes{
@@ -51,7 +50,7 @@ public class countPrimes{
 
         for(int i=2; i<Math.sqrt(n); i++){
             if(flag[i]){
-                for(int j=i*i; j<(n); j+=i){
+                for(int j=i*i; j<n; j+=i){
                     flag[j] = false;
                 }
             }
