@@ -37,13 +37,14 @@
 
 // Approach 2 (T.C. -> O(n log log n))
 
+import java.util.Scanner;
 public class countPrimes{
+
     public static int primes(int n){
-        
         if(n<=2) return 0;
-        
+
         boolean[] flag = new boolean[n];
-        
+
         for(int i=2; i<n; i++){
             flag[i] = true;
         }
@@ -66,9 +67,10 @@ public class countPrimes{
     }
 
     public static void main(String[] args){
-        int n = 12;
+        Scanner ip = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int n=ip.nextInt();
 
         System.out.println(primes(n));
     }
-
 }
