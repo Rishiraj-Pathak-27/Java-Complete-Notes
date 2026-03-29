@@ -1,5 +1,6 @@
 // WAP to count vowels from a string
 
+import java.util.Scanner;
 public class countVowels {
     public static int vowels(String str) {
         int n = str.length();
@@ -17,8 +18,10 @@ public class countVowels {
     }
 
     public static void main(String[] args) {
-        String str = "Rishiraj";
+        Scanner ip = new Scanner(System.in);
+        System.out.println("Enter the String: ");
+        String str = ip.nextLine();
 
-        System.out.printf("There are %d vowels in string %s", vowels(str), str);
+        System.out.printf("There are %d vowels in string %s\n", vowels(str), str);
     }
 }
