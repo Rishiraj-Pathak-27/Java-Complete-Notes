@@ -1,5 +1,3 @@
-
-
 public class SpiralMatrixII {
     public int[][] generateMatrix(int n) {
        int fr=0, fc=0, lr=n-1, lc=n-1;
