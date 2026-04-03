@@ -1,7 +1,7 @@
 // Reverse String, given string in a character array
 
 import java.util.Scanner;
-public class reverseStrings {
+public class reverseStrings  {
 
     public static void print(char[] arr){
         for(char ele:arr){
