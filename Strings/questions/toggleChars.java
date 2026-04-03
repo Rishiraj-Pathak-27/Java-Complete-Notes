@@ -15,6 +15,7 @@ public class toggleChars {
             }
 
             if(ch==' ') continue;
+            if(ch>='0' && ch<='9') continue;
 
             if(flag){
                 ascii += 32;
