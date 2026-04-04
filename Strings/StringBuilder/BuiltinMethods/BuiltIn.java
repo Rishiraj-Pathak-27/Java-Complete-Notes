@@ -90,3 +90,30 @@
     }
 } */
 
+
+// EG.
+
+// public class BuiltIn{
+//     public static void main(String[] args){
+//         StringBuilder str = new StringBuilder("Rishiraj");
+
+//         str.append(" Pathak");
+//         System.out.println(str);    // Rishiraj Pathak
+
+//         str.setCharAt(1,'u');
+//         System.out.println(str);    // Rushiraj Pathak
+
+//         str.insert(0,'H');
+//         System.out.println(str);    // HRushiraj Pathak
+
+//         str.deleteCharAt(0);
+//         System.out.println(str);    // Rushiraj Pathak
+
+//         str.reverse();
+//         System.out.println(str);     // kahtaP jarihsuR
+
+//         str.delete(0,7);
+//         System.out.println(str);    // jarihsuR
+//     }
+// }
+
