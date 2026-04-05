@@ -89,6 +89,23 @@
         System.out.println(str); 
     }
 } */
+    
+// 7) capacity() method is used to return the capacity of the string from string builder
+// By default it gives the capacity() as 16
+
+// Eg.)
+
+public class BuiltIn{
+    public static void main(String[] args){
+        StringBuilder sb = new StringBuilder(16);
+        System.out.println(sb.capacity());
+
+        StringBuilder str = new StringBuilder(50);
+        System.out.println(str.capacity());
+    }
+}
+
+/////////////////////////////////////////////////////////////
 
 
 // EG.
