@@ -19,7 +19,6 @@ public class validAnagrams {
         return Arrays.equals(c1,c2);
     }
 
-
     public static void main(String[] args){
         Scanner ip = new Scanner(System.in);
         System.out.println("Enter 2 strings: ");
