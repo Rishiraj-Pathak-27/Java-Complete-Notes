@@ -76,7 +76,7 @@ public class mostFreqChar {
             maxCount=count;
             ans=arr[i];
         }
-        i=j;
+   
         return ans;
     }
 
