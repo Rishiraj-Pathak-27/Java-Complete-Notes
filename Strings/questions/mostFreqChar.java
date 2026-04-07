@@ -39,7 +39,7 @@
     }
 } */
 
-// Approach 2 (Sorting Approach)
+// Approach 2 (Sorting Approach) T.C. (O(n.logn))  S.C (O(n))
 
 import java.util.Arrays;
 public class mostFreqChar {
