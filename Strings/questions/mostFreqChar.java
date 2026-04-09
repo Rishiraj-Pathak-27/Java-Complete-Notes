@@ -42,46 +42,50 @@
 // Approach 2 (Sorting Approach) T.C. (O(n.logn))  S.C (O(n))
 
 import java.util.Arrays;
+
 public class mostFreqChar {
 
-    public static char mostFrequent(String s){
-        
+    public static char mostFrequent(String s) {
+
         char[] arr = s.toCharArray();
-        int n=arr.length;
+        int n = arr.length;
 
         // 1) sort the array
         Arrays.sort(arr);
 
-        int maxCount=-1;
+        int maxCount = -1;
         char ans = arr[0];
 
-        int i=0, j=0;
+        int i = 0, j = 0;
 
-        while(j<n){
-            if(arr[i] == arr[j]){
+        while (j < n) {
+            if (arr[i] == arr[j]) {
                 j++;
-            }else{
-                int count = j-i;
-                if(count>maxCount) {
+            } else {
+                int count = j - i;
+                System.out.printf("%s = %d\n", arr[i], count); // to print the freq of each character
+                if (count > maxCount) {
                     maxCount = count;
                     ans = arr[i];
                 }
-                i=j;
+                i = j;
             }
         }
 
-        // this is used to handle the last sequence of characters as after j>n the loop breaks these things are handled outside
-        int count=j-i;
-        if(maxCount<count){
-            maxCount=count;
-            ans=arr[i];
+        // this is used to handle the last sequence of characters as after j>n the loop
+        // breaks these things are handled outside
+        int count = j - i;
+        System.out.printf("%s = %d", arr[i], count);
+        if (maxCount < count) {
+            maxCount = count;
+            ans = arr[i];
         }
-   
+
         return ans;
     }
 
-    public static void main(String[] args){
-        String str = "character";    // aaccehrrt
-        System.out.println("Most frequent character = "+mostFrequent(str));
-    } 
+    public static void main(String[] args) {
+        String str = "character"; // aaccehrrt
+        System.out.println("\nMost frequent character = " + mostFrequent(str));
+    }
 }

@@ -57,7 +57,7 @@
 
 public class reverseWords{
 
-    public static String wordReverse(String str){
+    public static String reverse(String str){
         int n=str.length();
 
         StringBuilder sb = new StringBuilder();
@@ -65,23 +65,22 @@ public class reverseWords{
 
         for(int i=0; i<n; i++){
             char ch = str.charAt(i);
-
-            if(ch != ' '){
+            if(ch!=' '){
                 sb.append(ch);
-            }else{
-                sb.reverse();
-                ans += sb;
+            }else {
+                ans += sb.reverse();
                 ans += " ";
                 sb = new StringBuilder();
             }
         }
         ans += sb.reverse();
+
         return ans;
-    }
+    }   
 
     public static void main(String[] args){
-        String str = "I like to Play Cricket";
+        String str = "I am Rishiraj Pathak";
 
-        System.out.println(wordReverse(str));
+        System.out.println(reverse(str));
     }
 }
