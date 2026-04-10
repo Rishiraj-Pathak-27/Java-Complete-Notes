@@ -1,5 +1,6 @@
 // The string should be compressed such that consecutive duplicates of characters are replaced with the character and followed by the number of consecutive duplicates.
 
+import java.util.Scanner;
 public class compressStrings {
 
     public static String compStr(String str){
@@ -18,19 +19,25 @@ public class compressStrings {
             if(curr==prev){
                 count++;
             }else{
-                ans += count;
+                if(count>1){
+                    ans += count;
+                }
                 count = 1;
                 ans += curr;
             }
         }
 
         // used to handle the last char frequency and add it to the ans var
-        ans += count;
+        if(count>1){
+            ans += count;
+        }
         return ans;
     }
 
     public static void main(String[] args){
-        String str = "aaaabbbccddddeee";
+        Scanner ip = new Scanner(System.in);
+        System.out.println("Enter the string: ");
+        String str = ip.nextLine();
 
         System.out.println(compStr(str));
 
