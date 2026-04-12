@@ -41,7 +41,7 @@
 
 // Approach 2 (Sorting Approach) T.C. (O(n.logn))  S.C (O(n))
 
-import java.util.Arrays;
+/* import java.util.Arrays;
 
 public class mostFreqChar {
 
@@ -87,5 +87,41 @@ public class mostFreqChar {
     public static void main(String[] args) {
         String str = "character"; // aaccehrrt
         System.out.println("\nMost frequent character = " + mostFrequent(str));
+    }
+} */
+
+// Approach 3 -> Best Approach (T.C -> O(n) S.C -> O(1))
+
+public class mostFreqChar {
+
+    public static char highestFrequency(String s) {
+        int n = s.length();
+
+        int[] arr = new int[26];
+
+        
+        for (int i = 0; i < n; i++) {
+            char ch = s.charAt(i);
+            int idx = ch - 97;
+
+            arr[idx]++;
+        }
+
+        int maxCount = 0;
+        char maxChar = s.charAt(0);
+
+        for(int i=0; i<26; i++){
+            if(arr[i] > maxCount){
+                maxCount = arr[i];
+                maxChar = (char)(i + 97);
+            }
+        }
+        return maxChar;
+    }
+
+    public static void main(String[] args) {
+        String s = "rishiraj";
+
+        System.out.println("Most Frequent Character = "+highestFrequency(s));
     }
 }
