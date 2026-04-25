@@ -1,87 +1,31 @@
-// WAP to reverse each word in string
+// 151. Reverse Words in a String
 
-// public class reverseWords {
+public class reverseWords {
 
-//     // function to perform reverse operation word by word
-//     public static String reverse(String str){
+    public static String reverse(String s){
+
+         // 1. remove whitespaces from front and end of the string
+        // 2. split the complete string using regex where \\s will be used to remove the white spaces from the string and + will check the occurrances of the white spaces and check with its posterior whitespace if got 2 occurrances then it will keep only 1.
+        // in short make the string clean with one white space in between each word, always get stored in a string array 
+        s = s.trim();
+        String[] arr = s.split("\\s+");
+
+        int n = arr.length;
         
-//         char[] arr = str.toCharArray();
-//         int n=arr.length;
-//         int left=0, right=n-1;
-
-//         while(left<right){
-//             char temp = arr[left];
-//             arr[left] = arr[right];
-//             arr[right] = temp;
-//             left++;
-//             right--;
-//         }
-
-//         return new String(arr);
-//     }
-
-//     // function used to detec the spaces and if found reverse the word and go ahead
-//     public static String wordReverse(String str){
-//         int n=str.length();
-
-//         String ans = ""; // ans used to store the reversed word string
-//         StringBuilder sb = new StringBuilder(""); // empty string builder to store the original string words until space founds
-
-//         for(int i=0; i<n; i++){
-//             char ch = str.charAt(i);
-            
-//             // if char does not found space then append the char to sb
-//             if(ch != ' '){
-//                 sb.append(ch);
-//             }else{      // if space found then reverse the word in sb and put it into the ans and then re initialize the sb
-
-//                 ans += reverse(sb.toString());
-//                 ans += " ";
-//                 sb = new StringBuilder("");
-//             }
-//         }
-
-//         // this is for the last word bcoz if there are n words then the spaces are n-1
-//         ans += reverse(sb.toString());
-//         return ans;
-//     }
-//     public static void main(String[] args){
-//         String str = "My name is John";
-
-//         System.out.println(wordReverse(str));
-//     }
-// }
-
-
-// Approach 2 (using reverse() built in method from string builder)
-
-public class reverseWords{
-
-    public static String wordReverse(String str){
-        int n=str.length();
-
         StringBuilder sb = new StringBuilder();
-        String ans = "";
 
-        for(int i=0; i<n; i++){
-            char ch = str.charAt(i);
-
-            if(ch != ' '){
-                sb.append(ch);
-            }else{
-                sb.reverse();
-                ans += sb;
-                ans += " ";
-                sb = new StringBuilder();
+        for(int i=n-1; i>=0; i--){
+            sb.append(arr[i]);
+            // to avoid the last blank space
+            if(i>0){
+                sb.append(" ");
             }
         }
-        ans += sb.reverse();
-        return ans;
+        return sb.toString();
     }
 
     public static void main(String[] args){
-        String str = "I like to Play Cricket";
-
-        System.out.println(wordReverse(str));
+        String s = "     the  sky  is  too  much dark    ";
+        System.out.println(reverse(s));
     }
 }
