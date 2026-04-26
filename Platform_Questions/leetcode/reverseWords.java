@@ -25,7 +25,7 @@ public class reverseWords {
     }
 
     public static void main(String[] args){
-        String s = "     the  sky  is  too  much dark    ";
+        String s = "  the   sky  is too  much dark       ";
         System.out.println(reverse(s));
     }
 }
