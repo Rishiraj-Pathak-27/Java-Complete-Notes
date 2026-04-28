@@ -7,6 +7,7 @@ public class reverseWords {
     public static String reverse(String s){
         StringBuilder sb = new StringBuilder();
         // remove whitespaces from front and end of the string
+        
         s = s.trim();
 
         // split the complete string using regex where \\s will be used to remove the white spaces from the string and + will check the occurrances of the white spaces and check with its posterior whitespace if got 2 occurrances then it will keep only 1.
