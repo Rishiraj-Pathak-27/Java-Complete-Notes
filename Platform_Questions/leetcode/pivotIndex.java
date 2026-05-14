@@ -1,6 +1,6 @@
 // 724. Find Pivot Index
 
-public class pivotIndex {
+/* public class pivotIndex {
 
     public static int sum(int[] arr, int start, int end){
         int sum=0;
@@ -24,6 +24,39 @@ public class pivotIndex {
             if(leftSum==rightSum){
                 return i;
             }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args){
+        int[] arr = {1,7,3,6,5,6};
+        System.out.format("Pivot Index = %d",pivot(arr));
+    }
+} */
+
+// OR
+
+public class pivotIndex {
+    public static int pivot(int[] arr){
+        int n=arr.length;
+        int sum=0;
+
+        for(int i=0; i<n; i++){
+            sum+=arr[i];
+        }
+
+        int leftSum=0;
+
+        for(int i=0; i<n; i++){
+            int rightSum=0;
+
+            rightSum=sum-leftSum-arr[i];
+
+            if(leftSum==rightSum){
+                return i;
+            }
+
+            leftSum=leftSum+arr[i];
         }
         return -1;
     }
