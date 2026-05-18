@@ -7,7 +7,7 @@
 
 // Eg.
 
-/* abstract class Department{
+abstract class Department{
     abstract void deptName();
 }
 
@@ -32,7 +32,7 @@ public class absBasics{
         Students stu = new Students();
         stu.deptName ();
     }
-} */
+}
 
 // Eg. Calling abstract class using non-abs method and constructor
 
@@ -79,40 +79,40 @@ public class absBasics{
 
 // Eg. calling the childest class of the Department to print details from all the classes 
 
-abstract class Department{
-    Department(){
-        System.out.println("Department provides salary to Staff");
-    }
-    abstract void deptName();
+// abstract class Department{
+//     Department(){
+//         System.out.println("Department provides salary to Staff");
+//     }
+//     abstract void deptName();
 
-}
+// }
 
-class Staff extends Department{
+// class Staff extends Department{
 
-    Staff(){
-        System.out.println("gets salary through department");
-    }
+//     Staff(){
+//         System.out.println("gets salary through department");
+//     }
 
-    @Override
-    public void deptName(){
-        System.out.println("Staff teaches in CSE Department");
-    }
+//     @Override
+//     public void deptName(){
+//         System.out.println("Staff teaches in CSE Department");
+//     }
 
-}
+// }
 
-class Students extends Department{
-    Students(){
-        System.out.println("Student studies in CSE department");
-    }
+// class Students extends Department{
+//     Students(){
+//         System.out.println("Student studies in CSE department");
+//     }
     
-    @Override
-    public void deptName(){
-        System.out.println("Students studies in CSE Department");
-    }
-}
+//     @Override
+//     public void deptName(){
+//         System.out.println("Students studies in CSE Department");
+//     }
+// }
 
-public class absBasics{
-    public static void main(String[] args){
-        Students s1 = new Students();
-    }
-}
+// public class absBasics{
+//     public static void main(String[] args){
+//         Students s1 = new Students();
+//     }
+// }
