@@ -1,4 +1,4 @@
-package questions;
+// package questions;
 import java.util.Scanner;
 
 public class decreasingIncreasing {
@@ -9,15 +9,19 @@ public class decreasingIncreasing {
     print(n);
     }
 
-        if(n==0) return;// { 
-        //     System.out.print(n+" ");  // 1
-        //     return;
-        // }
-        
-        // OR
+    public static void print(int n){
 
-        System.out.print(n+" ");    // 5 4 3 2 1
-        print(n-1);
-        if(n!=1) System.out.print(n+" ");    // 2 3 4 5
-    }
+        if(n==0) return;// { 
+            //     System.out.print(n+" ");  // 1
+            
+            //     return;
+            // }
+            
+            // OR
+            
+            System.out.print(n+" ");    // 5 4 3 2 1
+            print(n-1);
+            if(n!=1) System.out.print(n+" ");    // 2 3 4 5
+        }
 }
+
