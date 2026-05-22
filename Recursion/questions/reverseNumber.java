@@ -2,7 +2,7 @@
 
 public class reverseNumber{
     public static void main(String[] args){
-        int n=234;
+        int n=120938;
         // call to the reverse() function
         System.out.println(reverse(n,0));
     }
