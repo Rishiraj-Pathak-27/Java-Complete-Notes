@@ -61,6 +61,10 @@ import java.util.List;
 public class selfDividingNumbers {
 
     public static boolean helper(int n){
+        if(n <= 0){
+            return false;
+        }
+
         int copy=n;
         int count=0;
 
