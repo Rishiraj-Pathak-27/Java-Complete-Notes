@@ -66,7 +66,6 @@ public class selfDividingNumbers {
         }
 
         int copy=n;
-        int count=0;
 
         while(n!=0){
             int rem = n%10;
