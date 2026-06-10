@@ -64,6 +64,7 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │       ├── ☕ sequenceAssignmentQueries.class
 │       └── ☕ sequenceAssignmentQueries.java
 ├── 📁 JavaInterviewQuestions
+│   ├── 📕 Updated_OOP_Java_Scenario_Assignment.pdf
 │   ├── 📝 java.md
 │   └── 📝 stringInterning.md
 ├── 📁 OOPS
@@ -97,6 +98,13 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ basics.java
 │   │   ├── ☕ college.class
 │   │   └── ☕ departments.class
+│   ├── 📁 Packages
+│   │   ├── 📁 test
+│   │   │   ├── ☕ Cat.class
+│   │   │   └── ☕ Cat.java
+│   │   └── 📁 test2
+│   │       ├── ☕ Cat.class
+│   │       └── ☕ Cat.java
 │   ├── 📁 Polymorphism
 │   │   ├── ☕ Polymorphism$Cat.class
 │   │   ├── ☕ Polymorphism$Dog.class
@@ -133,10 +141,25 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ constructorBasics.class
 │   │   └── ☕ constructorBasics.java
 │   ├── 📁 questions
+│   │   ├── ☕ AttendanceManager.class
+│   │   ├── ☕ AutoRevenue.class
 │   │   ├── ☕ BankAccount.class
+│   │   ├── ☕ BikeRevenue.class
+│   │   ├── ☕ BillCalculator.class
+│   │   ├── ☕ Book.class
+│   │   ├── ☕ Booking.class
+│   │   ├── ☕ CarRevenue.class
+│   │   ├── ☕ Consumer.class
+│   │   ├── ☕ Course.class
+│   │   ├── ☕ Customer.class
 │   │   ├── ☕ Employee$getterSetter.class
 │   │   ├── ☕ Employee.class
+│   │   ├── ☕ Guest.class
+│   │   ├── ☕ Library.class
+│   │   ├── ☕ Main.class
 │   │   ├── ☕ Mobile.class
+│   │   ├── ☕ Reservation.class
+│   │   ├── ☕ Revenue.class
 │   │   ├── ☕ Student.class
 │   │   ├── ☕ basicClass$Car.class
 │   │   ├── ☕ basicClass.class
@@ -144,13 +167,27 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ complexClass$CompNumClass.class
 │   │   ├── ☕ complexClass.class
 │   │   ├── ☕ complexClass.java
+│   │   ├── ☕ electricityBillSystem.class
+│   │   ├── ☕ electricityBillSystem.java
+│   │   ├── ☕ employeeAttendanceTracker.class
+│   │   ├── ☕ employeeAttendanceTracker.java
 │   │   ├── ☕ fractionClass$Fraction.class
 │   │   ├── ☕ fractionClass.class
 │   │   ├── ☕ fractionClass.java
 │   │   ├── ☕ getterSetter.class
 │   │   ├── ☕ getterSetter.java
+│   │   ├── ☕ hotelReservationSystem.class
+│   │   ├── ☕ hotelReservationSystem.java
+│   │   ├── ☕ libraryBookManagement.class
+│   │   ├── ☕ libraryBookManagement.java
 │   │   ├── ☕ mobilePhone.class
 │   │   ├── ☕ mobilePhone.java
+│   │   ├── ☕ movieTicketBooking.class
+│   │   ├── ☕ movieTicketBooking.java
+│   │   ├── ☕ onlineCourseLearningPlatform.class
+│   │   ├── ☕ onlineCourseLearningPlatform.java
+│   │   ├── ☕ parkingLot.class
+│   │   ├── ☕ parkingLot.java
 │   │   ├── ☕ studentMarks.class
 │   │   ├── ☕ studentMarks.java
 │   │   ├── ☕ validationLogic.class
@@ -176,6 +213,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ ArrayLeaders.java
 │   │   ├── ☕ fizzBuzz.class
 │   │   ├── ☕ fizzBuzz.java
+│   │   ├── ☕ maxConsecutiveBits.class
+│   │   ├── ☕ maxConsecutiveBits.java
 │   │   ├── ☕ moveAllZerosToEnd.class
 │   │   ├── ☕ moveAllZerosToEnd.java
 │   │   ├── ☕ perfectValidSquare.class
@@ -184,18 +223,29 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ reverseInGroups.java
 │   │   ├── ☕ twoSum.class
 │   │   └── ☕ twoSum.java
-│   ├── 📁 hackerRank
 │   └── 📁 leetcode
 │       ├── ☕ SpiralMatrixII.class
 │       ├── ☕ SpiralMatrixII.java
 │       ├── ☕ buySellStock.class
 │       ├── ☕ buySellStock.java
+│       ├── ☕ buySellStockIII.class
+│       ├── ☕ buySellStockIII.java
 │       ├── ☕ buySellStockTwo.class
 │       ├── ☕ buySellStockTwo.java
+│       ├── ☕ chessBoardColor.class
+│       ├── ☕ chessBoardColor.java
+│       ├── ☕ commonElements.class
+│       ├── ☕ commonElements.java
 │       ├── ☕ countDigits.class
 │       ├── ☕ countDigits.java
 │       ├── ☕ countPrimes.class
 │       ├── ☕ countPrimes.java
+│       ├── ☕ defangingAnIpAddr.class
+│       ├── ☕ defangingAnIpAddr.java
+│       ├── ☕ earliestFinishTimeForLandWater.class
+│       ├── ☕ earliestFinishTimeForLandWater.java
+│       ├── ☕ earliestFinishTimeForLandWaterII.class
+│       ├── ☕ earliestFinishTimeForLandWaterII.java
 │       ├── ☕ fibonnaciNumber.class
 │       ├── ☕ fibonnaciNumber.java
 │       ├── ☕ findDuplicate.class
@@ -206,20 +256,30 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │       ├── ☕ findTheDiff.java
 │       ├── ☕ firstAndLastPosition.class
 │       ├── ☕ firstAndLastPosition.java
+│       ├── ☕ firstPalindromicStringArr.class
+│       ├── ☕ firstPalindromicStringArr.java
 │       ├── ☕ fizzBuzz.class
 │       ├── ☕ fizzBuzz.java
+│       ├── ☕ gcdOfArray.class
+│       ├── ☕ gcdOfArray.java
 │       ├── ☕ intersectionTwoArraysTwo.class
 │       ├── ☕ intersectionTwoArraysTwo.java
 │       ├── ☕ jewelsAndStones.class
 │       ├── ☕ jewelsAndStones.java
+│       ├── ☕ leftRightDiff.class
+│       ├── ☕ leftRightDiff.java
 │       ├── ☕ longestCommonPrefix.class
 │       ├── ☕ longestCommonPrefix.java
 │       ├── ☕ longestPalindromicSubstring.class
 │       ├── ☕ longestPalindromicSubstring.java
 │       ├── ☕ majorityElement.class
 │       ├── ☕ majorityElement.java
+│       ├── ☕ maxConsecutiveOne.class
+│       ├── ☕ maxConsecutiveOne.java
 │       ├── ☕ maxProductSubarray.class
 │       ├── ☕ maxProductSubarray.java
+│       ├── ☕ maxTotalSubarrayI.class
+│       ├── ☕ maxTotalSubarrayI.java
 │       ├── ☕ medianOfTwoSorted.class
 │       ├── ☕ medianOfTwoSorted.java
 │       ├── ☕ mergeSortedArrays.class
@@ -237,6 +297,12 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │       ├── ☕ palindromicSubStrings.java
 │       ├── ☕ perfectValidSquare.class
 │       ├── ☕ perfectValidSquare.java
+│       ├── ☕ pivotIndex.class
+│       ├── ☕ pivotIndex.java
+│       ├── ☕ powerOfThree.class
+│       ├── ☕ powerOfThree.java
+│       ├── ☕ powerOfTwo.class
+│       ├── ☕ powerOfTwo.java
 │       ├── ☕ removeElements.class
 │       ├── ☕ removeElements.java
 │       ├── ☕ reverseStrings.java
@@ -249,11 +315,19 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │       ├── ☕ rotateArrayRight.java
 │       ├── ☕ rotateString.class
 │       ├── ☕ rotateString.java
+│       ├── ☕ selfDividingNumbers.class
+│       ├── ☕ selfDividingNumbers.java
+│       ├── ☕ setMatrixZero.class
+│       ├── ☕ setMatrixZero.java
+│       ├── ☕ setMatrixZeros.class
 │       ├── ☕ singleNumber.class
 │       ├── ☕ singleNumber.java
 │       ├── ☕ sortColors.class
 │       ├── ☕ sortColors.java
-│       ├── ☕ spiralMatrixII.java
+│       ├── ☕ strictlySmallerGreater.class
+│       ├── ☕ strictlySmallerGreater.java
+│       ├── ☕ superPow.class
+│       ├── ☕ superPow.java
 │       ├── ☕ targetIndicesAfterSorting.class
 │       ├── ☕ targetIndicesAfterSorting.java
 │       ├── ☕ titleCase.class
@@ -264,6 +338,36 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │       ├── ☕ validAnagrams.java
 │       ├── ☕ validPalindrome.class
 │       └── ☕ validPalindrome.java
+├── 📁 Recursion
+│   ├── 📁 questions
+│   │   ├── ☕ aPowerB.class
+│   │   ├── ☕ aPowerB.java
+│   │   ├── ☕ decreasingIncreasing.class
+│   │   ├── ☕ decreasingIncreasing.java
+│   │   ├── ☕ factorialRecursion.class
+│   │   ├── ☕ factorialRecursion.java
+│   │   ├── ☕ forwardPrinting.class
+│   │   ├── ☕ forwardPrinting.java
+│   │   ├── ☕ gcd.class
+│   │   ├── ☕ gcd.java
+│   │   ├── ☕ gcdOfArray.class
+│   │   ├── ☕ gcdOfArray.java
+│   │   ├── ☕ globalVariables.class
+│   │   ├── ☕ globalVariables.java
+│   │   ├── ☕ powerOfNumbers.class
+│   │   ├── ☕ powerOfNumbers.java
+│   │   ├── ☕ reverseNumber.class
+│   │   ├── ☕ reverseNumber.java
+│   │   ├── ☕ reversePrinting.class
+│   │   ├── ☕ reversePrinting.java
+│   │   ├── ☕ sumOfNaturalNums.class
+│   │   ├── ☕ sumOfNaturalNums.java
+│   │   ├── ☕ superPow.class
+│   │   └── ☕ superPow.java
+│   ├── ☕ feelOfRecursion.class
+│   ├── ☕ feelOfRecursion.java
+│   ├── ☕ recursionBasics.class
+│   └── ☕ recursionBasics.java
 ├── 📁 Strings
 │   ├── 📁 PassByValue
 │   │   ├── ☕ passByValue.class
@@ -282,6 +386,7 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ interning.java
 │   │   └── 📝 stringInterning.md
 │   ├── 📁 questions
+│   │   ├── ☕ Main.class
 │   │   ├── ☕ allSubstrings.class
 │   │   ├── ☕ allSubstrings.java
 │   │   ├── ☕ checkPalindrome.class
@@ -304,6 +409,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ findIdxOfFirstChar.java
 │   │   ├── ☕ findTheDiff.class
 │   │   ├── ☕ findTheDiff.java
+│   │   ├── ☕ firstPalindromicStringArr.class
+│   │   ├── ☕ firstPalindromicStringArr.java
 │   │   ├── ☕ fizzBuzz.class
 │   │   ├── ☕ fizzBuzz.java
 │   │   ├── ☕ longestPalindromicSubstring.class
@@ -316,6 +423,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ nonRepeatingChar.java
 │   │   ├── ☕ numberOfSegments.class
 │   │   ├── ☕ numberOfSegments.java
+│   │   ├── ☕ parkingLot.class
+│   │   ├── ☕ parkingLot.java
 │   │   ├── ☕ removeDuplicateChar.class
 │   │   ├── ☕ removeDuplicateChar.java
 │   │   ├── ☕ removeExtraSpaces.class
@@ -338,6 +447,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ rotateString.java
 │   │   ├── ☕ shortestWord.class
 │   │   ├── ☕ shortestWord.java
+│   │   ├── ☕ sortAlphabetically.class
+│   │   ├── ☕ sortAlphabetically.java
 │   │   ├── ☕ sumOfAllSubs.class
 │   │   ├── ☕ sumOfAllSubs.java
 │   │   ├── ☕ titleCase.class
@@ -352,6 +463,19 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   ├── ☕ str.java
 │   ├── ☕ stringBasics.class
 │   └── ☕ stringBasics.java
+├── 📁 TCSNQT
+│   ├── ☕ cyclicallyRotate.class
+│   ├── ☕ cyclicallyRotate.java
+│   ├── ☕ nonRepeatedDigits.class
+│   ├── ☕ nonRepeatedDigits.java
+│   ├── ☕ priceproduct.class
+│   ├── ☕ priceproduct.java
+│   ├── ☕ priorSmaller.class
+│   ├── ☕ priorSmaller.java
+│   ├── ☕ sort012.class
+│   ├── ☕ sort012.java
+│   ├── ☕ zerosToEnd.class
+│   └── ☕ zerosToEnd.java
 ├── 📁 TwoDArrays
 │   ├── 📁 TwoDArrayList
 │   │   ├── ☕ TwoDArrayList.class
@@ -547,8 +671,12 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ arrayProduct.java
 │   │   ├── ☕ arraySorted.class
 │   │   ├── ☕ arraySorted.java
+│   │   ├── ☕ buySellStockIII.class
+│   │   ├── ☕ buySellStockIII.java
 │   │   ├── ☕ checkSortedArray.class
 │   │   ├── ☕ checkSortedArray.java
+│   │   ├── ☕ commonElements.class
+│   │   ├── ☕ commonElements.java
 │   │   ├── ☕ containsDuplicate.class
 │   │   ├── ☕ containsDuplicate.java
 │   │   ├── ☕ countBetweenTwo.class
@@ -559,6 +687,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ countZeros.java
 │   │   ├── ☕ divisibleByGiven.class
 │   │   ├── ☕ divisibleByGiven.java
+│   │   ├── ☕ earliestFinishTimeForLandWaterII.class
+│   │   ├── ☕ earliestFinishTimeForLandWaterII.java
 │   │   ├── ☕ elementEqualIndex.class
 │   │   ├── ☕ elementEqualIndex.java
 │   │   ├── ☕ elementFrequency.class
@@ -598,14 +728,20 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ greaterThanX.java
 │   │   ├── ☕ lastAppearance.class
 │   │   ├── ☕ lastAppearance.java
+│   │   ├── ☕ leftRightDiff.class
+│   │   ├── ☕ leftRightDiff.java
 │   │   ├── ☕ lessElementCount.class
 │   │   ├── ☕ lessElementCount.java
 │   │   ├── ☕ linearSearch.class
 │   │   ├── ☕ linearSearch.java
 │   │   ├── ☕ max.class
 │   │   ├── ☕ max.java
+│   │   ├── ☕ maxConsecutiveBits.class
+│   │   ├── ☕ maxConsecutiveBits.java
 │   │   ├── ☕ maxProductSubarray.class
 │   │   ├── ☕ maxProductSubarray.java
+│   │   ├── ☕ maxTotalSubarrayI.class
+│   │   ├── ☕ maxTotalSubarrayI.java
 │   │   ├── ☕ mergeArrays.class
 │   │   ├── ☕ mergeArrays.java
 │   │   ├── ☕ mergeSort.class
@@ -630,6 +766,8 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ oddsZero.java
 │   │   ├── ☕ perfectSquares.class
 │   │   ├── ☕ perfectSquares.java
+│   │   ├── ☕ pivotIndex.class
+│   │   ├── ☕ pivotIndex.java
 │   │   ├── ☕ positiveCheck.class
 │   │   ├── ☕ positiveCheck.java
 │   │   ├── ☕ presentQuery.class
@@ -651,8 +789,12 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 │   │   ├── ☕ segregateZeroOne.java
 │   │   ├── ☕ segregateZeroOneTwo.class
 │   │   ├── ☕ segregateZeroOneTwo.java
+│   │   ├── ☕ selfDividingNumbers.class
+│   │   ├── ☕ selfDividingNumbers.java
 │   │   ├── ☕ squareArray.class
 │   │   ├── ☕ squareArray.java
+│   │   ├── ☕ strictlySmallerGreater.class
+│   │   ├── ☕ strictlySmallerGreater.java
 │   │   ├── ☕ sumUntilNegative.class
 │   │   ├── ☕ sumUntilNegative.java
 │   │   ├── ☕ targetAppearance.class
@@ -764,7 +906,6 @@ Whether you're a beginner or preparing for interviews, this repo will help you s
 ├── ☕ stringReverse.class
 └── ☕ stringReverse.java
 ```
-
 
 Each folder contains Java programs related to that topic for hands-on practice.
 
