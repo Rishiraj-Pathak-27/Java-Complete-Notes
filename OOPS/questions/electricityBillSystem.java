@@ -94,6 +94,5 @@ public class electricityBillSystem {
             System.out.println("Total Bill = "+bc[i].billCalculate(bc[i].getUnits()));
             System.out.println();
         }
-
     }
 }
