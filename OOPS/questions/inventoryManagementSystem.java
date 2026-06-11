@@ -90,7 +90,7 @@ public class inventoryManagementSystem {
             inv[i] = new Inventory(prodId, name, category, price, stockQuantity);
         }
 
-        // out of stock checking
+        // out of stock checking & // product valuation
         for (Inventory ele : inv) {
             double total = 0;
             if (ele.getQuantity() == 0) {
@@ -107,6 +107,6 @@ public class inventoryManagementSystem {
             }
         }
 
-        // product valuation
+        
     }
 }
