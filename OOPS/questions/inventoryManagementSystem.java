@@ -57,6 +57,21 @@ class Inventory extends Product {
         System.out.println("Product Stock Quantity = " + getQuantity());
     }
 
+    // search product by category
+    void prodSearch(Inventory[] inv, String searchItem){
+        boolean isFound = false;
+
+        for(Inventory ele:inv){
+            if(ele.getCategory().equalsIgnoreCase(searchItem)){
+                ele.display();
+                isFound = true;
+            }
+        }
+        if(!isFound){
+            System.out.println("No Item Found of this Category");
+        }
+    }
+
 }
 
 public class inventoryManagementSystem {
@@ -91,21 +106,44 @@ public class inventoryManagementSystem {
         }
 
         // out of stock checking & // product valuation
+        double totalVal = 0;
         for (Inventory ele : inv) {
             double total = 0;
             if (ele.getQuantity() == 0) {
                 total += ele.getPrice() * ele.getQuantity();
+                totalVal += ele.getPrice() * ele.getQuantity();
                 ele.display();
                 System.out.printf("The Product having Product Id = %s is out of stock\n", ele.getId());
                 System.out.println("The Total Product valuation = " + total);
                 System.out.println();
             } else {
                 total += ele.getPrice() * ele.getQuantity();
+                totalVal += ele.getPrice() * ele.getQuantity();
                 ele.display();
                 System.out.println("The Total Product valuation = " + total);
                 System.out.println();
             }
         }
+        System.out.println("Total Value of Inventory = "+totalVal);
+
+        System.out.println();
+
+        System.out.println("----------Search By Category------------");
+
+        // search by category functionality
+        for(int i=0; i<n; i++){
+            System.out.println("Enter the category: ");
+            String category = ip.nextLine();
+
+            if(n>0){
+                inv[i].prodSearch(inv, category);
+            }else{
+                System.out.println("Product of this category not found");
+            }
+            
+        }
+
+
 
         
     }
