@@ -61,9 +61,6 @@ class QueueManager extends Patient{
         System.out.println("Patient Disease = "+getDisease());
         System.out.println("Patient Waiting Time = "+getWaitingTime());
     }
-
-
-    
 }
 
 
@@ -103,10 +100,31 @@ public class hospitalPatientQueue{
             System.out.println();
             qm[i] = new QueueManager(patientId, name, age, gender, disease, waitingTime);
         }
+
+        // display the patients
         for(int i=0; i<n; i++){
             qm[i].display();
             System.out.println();
         }
+
+        // time waiting
+        int totalWaitingTime = 0;
+        QueueManager longestWaitingTime = qm[0];
+
+        for(int i=0; i<n; i++){
+            totalWaitingTime += qm[i].getWaitingTime();
+            if(qm[i].getWaitingTime() > longestWaitingTime.getWaitingTime()){
+                longestWaitingTime = qm[i];
+            }
+        }   
+
+        System.out.println("Total Waiting Time = "+totalWaitingTime);
+        System.out.println("Longest Waiting Time = "+longestWaitingTime.getName()+"("+longestWaitingTime.getWaitingTime()+" mins)");
+        System.out.println("Average Waiting Time = "+((n>0) ? ((double)totalWaitingTime/n):0));
+
+
+
+
 
         
 
