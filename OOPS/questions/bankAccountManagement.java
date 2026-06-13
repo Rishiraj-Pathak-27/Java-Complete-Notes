@@ -38,6 +38,14 @@ class Account {
         return balance;
     }
 
+    // withdrawal function
+    double accWithdrawal(double amt) {
+        if (balance > 0 && balance >= amt) {
+            balance -= amt;
+        }
+        return balance;
+    }
+
     double getBalance() {
         return this.balance;
     }
@@ -100,25 +108,40 @@ public class bankAccountManagement {
         }
 
         System.out.println();
-        System.out.println("Enter the Serial number: ");
-        int sr = ip.nextInt();
-        ip.nextLine();
 
-        bankOp selected = bo[sr - 1];
-
-        System.out.println("1. Deposit");
-        System.out.println("2. Withdrawal");
-        System.out.println("3. Balance Enquiry");
-
-        int choice = ip.nextInt();
-        ip.nextLine();
-
-        if (choice == 1) {
-            System.out.println("Enter the amount to be deposited: ");
-            double amount = ip.nextDouble();
+        for (int i = 0; i < bo.length; i++) {
+            System.out.println("Enter the Serial number: ");
+            int sr = ip.nextInt();
             ip.nextLine();
 
-            System.out.println("Updated balance = " + selected.accDeposit(amount));
+            bankOp selected = bo[sr - 1];
+
+            System.out.println("1. Deposit");
+            System.out.println("2. Withdrawal");
+            System.out.println("3. Balance Enquiry");
+
+            int choice = ip.nextInt();
+            ip.nextLine();
+
+            if (choice == 1) {
+                System.out.println("Enter the amount to be deposited: ");
+                double amount = ip.nextDouble();
+                ip.nextLine();
+
+                System.out.println("Updated balance = " + selected.accDeposit(amount));
+            }
+
+            if (choice == 2) {
+                System.out.println("Enter the amount to be withdrawal: ");
+                double amount = ip.nextDouble();
+                ip.nextLine();
+
+                System.out.println("Updated balance = " + selected.accWithdrawal(amount));
+            }
+        
+            if (choice == 3) {
+                System.out.println("Your Current Balance = " + selected.getBalance());
+            }
         }
     }
 }
