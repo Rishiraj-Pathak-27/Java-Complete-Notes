@@ -3,64 +3,63 @@
 
 // The system should allow customers to perform basic banking operations such as depositing money, withdrawing money, and checking their account balance.
 // It should also identify accounts whose balance falls below ₹1000 and generate an account summary report.
-
 import java.util.Scanner;
-class Account{
+
+class Account {
+
     private long accNum;
     private String accHolder;
     private String accType;
     private double balance;
 
     // setters
-
-    Account(long accNum, String accHolder, String accType, double balance){
+    Account(long accNum, String accHolder, String accType, double balance) {
         this.accNum = accNum;
         this.accHolder = accHolder;
         this.accType = accType;
         this.balance = balance;
     }
 
-    long getNum(){
+    long getNum() {
         return this.accNum;
     }
 
-    String getAccHolder(){
+    String getAccHolder() {
         return this.accHolder;
     }
 
-    String getAccType(){
+    String getAccType() {
         return this.accType;
     }
 
-    double getBalance(){
+    // deposit function
+    double accDeposit(double amt) {
+        balance += amt;
+        return balance;
+    }
+
+    double getBalance() {
         return this.balance;
     }
 }
 
-class bankOp extends Account{
-    bankOp(long accNum, String accHolder, String accType, double balance){
+class bankOp extends Account {
+
+    bankOp(long accNum, String accHolder, String accType, double balance) {
         super(accNum, accHolder, accType, balance);
     }
 
-    void summary(){
-        System.out.println("Account Number: "+getNum());
-        System.out.println("Account Holder Name: "+getAccHolder());
-        System.out.println("Account Type: "+getAccType());
-        System.out.println("Account Initial Balance: "+getBalance());
+    void summary() {
+        System.out.println("Account Number: " + getNum());
+        System.out.println("Account Holder Name: " + getAccHolder());
+        System.out.println("Account Type: " + getAccType());
+        System.out.println("Account Initial Balance: " + getBalance());
     }
-
-    // deposit function
-    double balance = getBalance();
-    double accDeposit(double amt){
-        balance += amt;
-        return getBalance();
-    }
-
 
 }
 
-public class bankAccountManagement{
-    
+public class bankAccountManagement {
+
     public static void main(String[] args) {
 
         Scanner ip = new Scanner(System.in);
@@ -70,7 +69,7 @@ public class bankAccountManagement{
 
         bankOp[] bo = new bankOp[n];
 
-        for(int i=0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             System.out.println("Enter account number: ");
             long accNum = ip.nextLong();
             ip.nextLine();
@@ -79,7 +78,7 @@ public class bankAccountManagement{
             String accHolder = ip.nextLine();
 
             System.out.println("Enter account type: ");
-            String accType=ip.nextLine();
+            String accType = ip.nextLine();
 
             System.out.println("Enter initial balance: ");
             double balance = ip.nextDouble();
@@ -89,14 +88,37 @@ public class bankAccountManagement{
         }
 
         System.out.println("----------Bank Account Summary-----------");
-        for(int i=0; i<bo.length; i++){
+        for (int i = 0; i < bo.length; i++) {
             bo[i].summary();
         }
 
+        // available accounts
+        System.out.println();
         System.out.println("Available Bank Accounts with it's Holders: ");
-        for(int i=0; i<bo.length; i++){
-            System
-       }
-        
+        for (int i = 0; i < bo.length; i++) {
+            System.out.println((i + 1) + ". " + bo[i].getAccHolder());
+        }
+
+        System.out.println();
+        System.out.println("Enter the Serial number: ");
+        int sr = ip.nextInt();
+        ip.nextLine();
+
+        bankOp selected = bo[sr - 1];
+
+        System.out.println("1. Deposit");
+        System.out.println("2. Withdrawal");
+        System.out.println("3. Balance Enquiry");
+
+        int choice = ip.nextInt();
+        ip.nextLine();
+
+        if (choice == 1) {
+            System.out.println("Enter the amount to be deposited: ");
+            double amount = ip.nextDouble();
+            ip.nextLine();
+
+            System.out.println("Updated balance = " + selected.accDeposit(amount));
+        }
     }
 }
