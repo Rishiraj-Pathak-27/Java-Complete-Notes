@@ -29,8 +29,8 @@ public class weightedWordMapping {
     }
 
     public static void main(String[] args) {
-        String[] words = {"abcd", "def", "xyz"};
-        int[] weights = {5, 3, 12, 14, 1, 2, 3, 2, 10, 6, 6, 9, 7, 8, 7, 10, 8, 9, 6, 9, 9, 8, 3, 7, 7, 2};
+        String[] words = {"a", "b", "c"};
+        int[] weights = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 
         System.out.println(weightMapping(words, weights));
     }
